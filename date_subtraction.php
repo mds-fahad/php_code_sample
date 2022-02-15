@@ -22,7 +22,4 @@ echo '<br />'.$date->format("d-m-Y").' : 5 Years';
 date_sub($date, new DateInterval("P5Y5M5D"));
 echo '<br />'.$date->format("d-m-Y").' : 5 Days, 5 Months, 5 Years';
 
-date_sub($date, new DateInterval("P5YT5H"));
-echo '<br />'.$date->format("d-m-Y H:i:s").' : 5 Years, 5 Hours';
-
 ?>
